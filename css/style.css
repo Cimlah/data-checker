@@ -64,6 +64,60 @@ main {
     position: relative;
 }
 
+.input-wrapper::before {
+    content: '';
+    background-size: 100% 100%;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    width: 1.5rem;
+    height: 1.5rem;
+
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+}
+
+.input-wrapper-1::before {
+    background-image: url('../svgs/email.svg');
+}
+
+.input-wrapper-2::before {
+    background-image: url('../svgs/user.svg');
+}
+
+.input-wrapper-3::before {
+    background-image: url('../svgs/2users.svg');
+}
+
+.input-wrapper-4::before {
+    background-image: url('../svgs/home.svg');
+}
+
+.input-wrapper-5::before {
+    background-image: url('../svgs/3users.svg');
+}
+
+.input-wrapper-6::before {
+    background-image: url('../svgs/graph.svg');
+}
+
+.input-wrapper-7::before {
+    background-image: url('../svgs/eye.svg');
+}
+
+.input-wrapper-8::before {
+    background-image: url('../svgs/creditcard.svg');
+}
+
+.input-wrapper-9::before {
+    background-image: url('../svgs/wallet.svg');
+}
+
+.input-wrapper-10::before {
+    background-image: url('../svgs/globe.svg');
+}
+
 .full-fr {
     grid-column: 1 / 3;
 }
