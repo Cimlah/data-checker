@@ -27,3 +27,16 @@ sprawdzDaneButton.addEventListener('click', () => {
         timeoutProgress.classList.remove('timeout-progress-animation')
     }
 })
+
+const main = document.querySelector('main')
+main.classList.add('reveal-animation-1')
+setTimeout(() => {
+    main.classList.remove('reveal-animation-1')
+    main.classList.add('preserve-reveal-animation-1')
+    main.classList.add('reveal-animation-2')
+    
+    setTimeout(() => {
+        main.classList.remove('reveal-animation-2')
+        main.classList.add('preserve-reveal-animation-2')
+    }, 750)
+}, 1200)

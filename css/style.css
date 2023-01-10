@@ -84,7 +84,7 @@ main {
     width: 32vw;
     padding: 2rem 3rem 3rem 3rem;
     background-color: transparent;
-    box-shadow: 0px 8px 48px -12px #67E06C;
+    /* box-shadow: 0px 8px 48px -12px #67E06C; */
     backdrop-filter: blur(4px);
     border-radius: 32px;
 
