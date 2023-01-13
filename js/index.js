@@ -45,7 +45,7 @@ sprawdzDaneButton.addEventListener('click', () => {
         } // Checking class name
 
         else if(index == 5) {
-            const regex = /^[1-2],[0-9]{2}$/
+            const regex = /^(Niski)|(niski)|(Średni)|(średni)|(Wysoki)|(wysoki)$/
             if(!regex.test(input.value)) {
                 incorrectDataParagraphs[index].style.opacity = '1'
                 isCorrect = false
